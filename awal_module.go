@@ -1,5 +1,5 @@
 package awal_module
 
-func Awal() string {
-	return "Ini adalah pesan awal terupdate"
+func Awal(name string) string {
+	return "name" + name
 }
